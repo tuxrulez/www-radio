@@ -1,0 +1,152 @@
+html,body{
+  height:100%;
+  overflow-x: visible !important;
+}
+
+body{background-color: #f0f2f5;}
+/*
+html {
+    overflow-y: auto;}
+*/
+.site-center {
+    width: 940px;
+    background-color: white;
+    /*height:100%;*/
+    position: relative;
+    min-height: 100%;
+}
+
+.site-center .site-body {
+    margin-bottom: 80px;
+}
+
+.site-header, .site-header-fixture {
+    background: none;
+}
+
+.site-header {
+    box-shadow: none;
+    padding-top: 20px;
+    height: 114px;
+    background: url('../img/site/header.png') no-repeat center bottom #f0f2f5;
+}
+
+.site-footer {
+    bottom: 0;
+    position: absolute;
+    background-color: #f0f2f5;
+    border-top: 1px solid #d8d8d8;
+    padding: 10px 0;
+}
+
+.site-footer p{text-align: center; margin-bottom: 2px;}
+
+.login{
+	width: 264px;
+	text-align: center;
+	padding: 0px 45px 55px 45px;
+	margin-left: 293px;
+}
+
+.login label{position: absolute;font-size: 18px;
+    line-height: 24px; left: 20px;}
+.login input{width: 188px;}
+.login img{padding: 0; margin: 34px 0 0 23px;}
+.login .username input, .login .password input{padding-left: 32px; line-height: 24px;}
+.login .username{margin-top: 30px;}
+.login .password{margin-top: 7px;}
+.login .btn{margin:31px 0 27px 0;font-size: 18px; background-color: #f0414b; color: #ffffff;line-height: 32px; border: none; width: 220px; display: inline; float: none;}
+.login .form-signin{background-color: #dcdcdc;-webkit-border-radius: 8px; position: relative;
+-moz-border-radius: 8px;
+border-radius: 8px;}
+.login .sombra{margin: 0; padding: 0; position: absolute; left: 0; bottom: 0;}
+
+.sair{position: absolute; right: 0; top: 0;}
+
+.ui-widget{font-size: 10px;}
+
+ul {
+    margin-left:  13px;
+}
+
+div.ui-datepicker{
+ font-size:13px;
+}
+div.ui-dialog{font-size: 100%;}
+div.ui-dialog p{margin-bottom: 5px; line-height: 15px;}
+
+label {
+    font-size: 10px; line-height: 12px; font-size: 12px;
+    padding: 5px 0 5px 5px;
+}
+
+.hide .select2-container{display: none;}
+
+.bloco{display: block;}
+
+.form-cadastro select, .form-cadastro .spinner{width: 100%;}
+
+.form-cadastro .hora{width: 46px;}
+
+.dias-da-semana label{display: inline-block; margin-right: 12px;}
+
+.hora-sistema{position: absolute; right: 70px; top: 0;}
+.hora-sistema .hora{margin-right: 5px;}
+
+.remover {color: gray; float: right; margin-top: 24px;}
+.remover:hover {color: #ff2f2f;}
+.radio-repetir{line-height: 36px; padding-bottom: 6px;}
+
+#produtos .produto{border-bottom: 1px solid #ddd; padding-bottom: 20px;}
+#produtos .produto:nth-child(2) { background: #f5f5f5;}
+#produtos .produto .categoria .cell, #produtos .produto .nome .cell{margin-bottom: 0; }
+
+.form-cadastro label h4{font-size: 14px; line-height: 22px;}
+.form-cadastro #titulo{width: 433px;}
+.form-cadastro .cell{margin-bottom: 10px;}
+.form-cadastro .programacao label h4{font-size: 106%; line-height: 130%;}
+.form-cadastro .calendario{width: 120px;}
+
+.select2-choice.selecionado {
+
+    color: #444;
+
+    background-clip: padding-box;
+
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+
+    background-color: #92eba4;
+    
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #92eba4), color-stop(1, #dbffdc));
+    background-image: -webkit-linear-gradient(center bottom, #92eba4 0%, #dbffdc 100%);
+    background-image: -moz-linear-gradient(center bottom, #92eba4 0%, #dbffdc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#dbffdc', endColorstr = '#92eba4', GradientType = 0);
+    background-image: linear-gradient(to top, #92eba4 0%, #dbffdc 100%);
+}
+
+table tr, table tr a{color: black; font-size: 13px;}
+.verde{background: #cdfbca;}
+.vermelho{background: #f5cdce;}
+.amarelo{background: #fefece;}
+.tipo{text-transform: uppercase;}
+
+.legenda span{line-height: 20px; vertical-align: middle;margin-right: 16px;}
+.legenda .box{display: inline-block; width: 40px; height: 20px; margin-right: 4px; border: solid 1px #999999;}
+
+.ajuda{color: green;}
+.ajuda img{float: none; position: relative; top: 2px; margin: 0;}
+h2 .ajuda{font-size: 18px;}
+
+.audiojs{display: none;}
+
+.banner{display: block; float: none; margin: 30px auto;}
+
+.texo-home{margin: 20px 70px; font-size: 17px; color: #58595b;}
+.texo-home .p{margin-bottom: 15px;}
+
+.botoes{text-align: center;}
+.botoes .button{display: inline-block; float: none;}
